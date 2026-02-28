@@ -1,4 +1,4 @@
-name: 'Minecraft AFK-Bot'
+name: 'Server'
 author: 'Minionguyjpro'
 branding:
   icon: 'box'
@@ -7,7 +7,7 @@ description: 'A Minecraft Node.js bot to stay AFK in servers.'
 
 inputs:
   ip:
-   description: 'The IP of the Minecraft server.'
+   description: 'zyphoriasmp.falix.dev'
    required: true
    default: 'example.ip.org'
   port:
@@ -17,7 +17,7 @@ inputs:
   name:
    description: 'The username of the bot displayed in the Minecraft server.'
    required: false
-   default: 'afkbot'
+   default: 'Server'
   auto-night-skip:
    description: "Make's the bot automatically skip the night in the Minecraft server."
    required: false
